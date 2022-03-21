@@ -195,3 +195,7 @@ pointer-events: none;
 .t-swipe3{
     background: rgb(255, 139,93);
 }
+
+body.hide{
+    overflow: hidden;
+}
