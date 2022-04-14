@@ -29,7 +29,6 @@ function animateSlides(){
             reverse:false
         })
             .setTween(slideTl)
-            .addIndicators()
             .addTo(controller)
             //New animation
             const pageTl = gsap.timeline();
@@ -46,7 +45,6 @@ function animateSlides(){
             })
             .setTween(pageTl)
             .setPin(slide, {pushFollowers: false})
-            .addIndicators({colorStart:"white", colorTrigger:"white", name:"page", indent:200})
             .addTo(controller)
     });
 }
